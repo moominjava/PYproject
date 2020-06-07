@@ -1,0 +1,9 @@
+end: print() 함수에서 출력의 끝을 지정합니다.
+파이썬에서는 줄 바꿈(\n)이 기본 값입니다.
+특정한 기능을 수행하기 위해 미리 정해둔 문자 조합을 이스케이프 코드라고 합니다.
+>>> print(' ', end='')
+
+>>> print('apple', end='/')
+apple/
+>>> print('happy', end='python')
+happypython
