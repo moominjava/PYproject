@@ -1,0 +1,34 @@
+숫자형 (Numeric)
+
+숫자로 이루어진 자료형입니다.
+정수나 실수 등을 다룰 수 있습니다.
+숫자끼리 연산도 가능합니다.
+
+>>> my_int1 = 1
+>>> my_int2 = -2
+>>> my_int3 = 4096
+>>> my_float1 = 1.0
+>>> my_float2 = 2.0
+>>> my_float3 = 3.14
+
+문자열 (String)
+
+문자나 문자들을 늘어놓은 것입니다.
+큰따옴표와 작은따옴표로 구분합니다.
+리스트와 함께 시퀀스 자료형입니다.
+작은따옴표(' ') 또는 큰따옴표(" ")로 구분합니다.
+
+>>> my_str1 = 'a'
+>>> my_str2 = '3.14'
+>>> my_str3 = 'coding'
+>>> my_str4 = "coding"
+
+불린 (Boolean)
+
+참(True)과 거짓(False)을 말합니다.
+비교나 논리연산자의 결과입니다.
+
+>>> my_bool1 = True  # True
+>>> my_bool2 = False  # False
+>>> my_bool3 = 1 < 2  # True
+>>> my_bool4 = 1 == 2  # False
