@@ -1,0 +1,41 @@
+조건문 
+if
+
+if 조건:
+    실행할 명령1
+    실행할 명령2
+elif:
+    실행할 명령3
+    실행할 명령4
+else:
+    실행할 명령5
+    실행할 명령6
+
+if와 함께 사용할 수 있는 친구들입니다.
+
+else: 이전의 if나 elif가 모두 거짓일 경우 else로 넘어갑니다.
+name = 'Bob'
+if name == 'Alice':
+    print('당신이 Ailce이군요.')
+else:
+    print('아니 당신은!?')
+
+아니 당신은!?
+
+elif : 이전의 if나 elif가 거짓일 경우 elif의 조건문으로 넘어갑니다.
+if 조건:
+    실행할 명령1
+    실행할 명령2
+elif 조건:
+    실행할 명령3
+    실행할 명령4
+
+name = 'Bob'
+if name == 'Alice':
+    print('당신이 Ailce이군요.')
+elif name == 'Bob':
+    print('당신이 Bob이군요.')
+else:
+    print('아니 당신은!?')
+
+당신이 Bob이군요.

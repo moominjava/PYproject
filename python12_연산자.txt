@@ -1,0 +1,59 @@
+연산자
+
+할당연산자
+= 
+복합 할당연산자
+ += , -= , *= , /=
+
+>>> count = 0
+>>> count = count + 1
+>>> print(count)
+1
+>>> count += 1  # count = count + 1과 같습니다.
+>>> print(count)
+2
+
+특수연산자
+>>> print(3 ** 2)  # 3의 2제곱
+9
+>>> print(4 ** 3)  # 4의 3제곱
+64
+>>> print(7 / 3)  # 7 나누기 3
+2.3333333333333335
+>>> print(7 // 3)  # 7 나누기 3의 몫
+2
+>>> print(7 % 3)  # 7 나누기 3의 나머지
+1
+
+%의 경우에는 홀수, 짝수의 구분에도 사용할 수 있습니다.
+아래 코드는 %를 이용해 홀짝 구분을 하는 코드입니다.
+numbers = [1, 2, 3, 4, 5, 6, 7]
+for number in numbers:
+    if number % 2 == 1:
+        print(number, ': 홀수')
+    else:
+        print(number, ': 짝수')
+
+1 : 홀수
+2 : 짝수
+3 : 홀수
+4 : 짝수
+5 : 홀수
+6 : 짝수
+7 : 홀수
+
+논리연산자
+and : 둘 다 True일 때에만 True
+or : 한 쪽이라도 True면 True
+not : True면 False, False면 True
+
+멤버쉽 연산자
+리스트, 튜플 등의 안에 해당 값이 있는 지 확인합니다.
+in과 not in 키워드를 사용합니다.
+>>> fruits = ['사과', '딸기', '망고', '브로콜리', '바나나']
+>>> print(fruits)
+['사과', '딸기', '망고', '브로콜리', '바나나']
+>>> print('딸기' in fruits)
+True
+>>> print('딸기' not in fruits)
+False
